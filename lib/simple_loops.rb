@@ -11,13 +11,13 @@ def loop_message_n_times(message,number)
   number.times{puts message}
 end
 
-  def output_array (array,counter)
-    array =["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
-    counter = 0
-   while array[counter] do
-    puts array[counter]
-    counter += 1
+ def output_array(array)
+  count = 0
+  while count < array.length do
+    puts array[count]
+    count += 1
   end
+end
    
   end
   
